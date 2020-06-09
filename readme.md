@@ -6,21 +6,24 @@
 
 ## Description
 
-_{This is a detailed description of your application. Its purpose and usage.  Give as much detail as needed to explain what the application does, and any other information you want users or other developers to have. }_
+_This was an exercise in 'for loops' in javascript.  We created a word puzzle generator that will take in a user phrase or sentence and return the input with all vowels being replaced by dashes.  You can play with your friends!  Have them put in a quote and try to guess what it is by solving the puzzle that is created by the application_
 
 ## Setup/Installation Requirements
 
-* _This is a great place_
-* _to list setup instructions_
-* _in a simple_
-* _easy-to-understand_
-* _format_
-
-_{Leave nothing to chance! You want it to be easy for potential users, employers and collaborators to run your app. Do I need to run a server? How should I set up my databases? Is there other code this app depends on?}_
+* _Install Git Bash_
+* _Using a Terminal on desktop, user will need to type git init_
+* _go to this repository and clone then Open in Desktop_
+* _Will likely need Git for Desktop which can be found here: https://help.github.com/en/desktop/getting-started-with-github-desktop/installing-github-desktop
+* _Clone file to desktop repo on github_
+* _run index.html with web browser_
+* _Other option is to go to Repository on git hub and download zip_
+* _Retrieve zip file in downloads on computer and double click to unpack_
+* _Find the project folder on desktop or downloads folder_
+* _Run index.html with web browserThis is a great place_
 
 ## Known Bugs
 
-_{Are there issues that have not yet been resolved that you want to let users know you know?  Outline any issues that would impact use of your application.  Share any workarounds that are in place. }_
+_There are no known bugs_
 
 ## Support and contact details
 
