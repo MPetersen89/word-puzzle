@@ -2,7 +2,7 @@
 
 #### _A word puzzle exercise using for loops, 6.9.20_
 
-#### By _**Taylor Phillips and Michael Peterson**_
+#### By _**Taylor Phillips and Michael Petersen**_
 
 ## Description
 
@@ -37,4 +37,4 @@ _VSCode_
 
 *MIT License*
 
-Copyright (c) 2020 **_Taylor Phillips and Michael Peterson_**
+Copyright (c) 2020 **_Taylor Phillips and Michael Petersen_**
