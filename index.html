@@ -9,14 +9,20 @@
   </head>
   <body>
     <div class="container">
-      <div class="form-group">
-        <h1>Enter your favorite quote here:</h1>
-        <input type="text" id="input" title="Input text here">
-        <button id="inputButton" class="btn btn-primary btn-lg active">Submit</button>
+      <div class="jumbotron">
+        <h2>Press this for an alert!</h2>
+        <button id="clickButton" type="button">Click!</button>
       </div>
+      <form id="formQuote">
+        <div class="form-group">
+          <label for="input"><h1>Enter your favorite quote here:</h1></label>
+          <input type="text" id="input" title="Input text here">
+          <button id="inputButton" class="btn btn-primary btn-lg active">Submit</button>
+        </div>
+      </form>
       <div class="results">
-        <h1>See if you can solve the Word Puzzle.</h1>
-        <span id="output"></span>
+        <h2>See if you can solve the Word Puzzle.</h2>
+        <span id="output"><h1></h1></span>
         <button id="return" class="btn btn-default active">Return</button>
       </div>
     </div>

@@ -1,27 +1,39 @@
-$(document).ready(function() {
-  $("div.form-group").submit(function(event) {
-    event.preventDefault();
-    let inputItem = $("#input").val();
-    let inputsArray = inputItem.split("");
-    
-      for (let input=0; input <= inputsArray.length-1; input+=1);
+// Business Logic
+let checkForVowels = function(inputString) {
+  let outputArray = [];
+  let stringToArray = inputString.split("");  // inputsArray is the split up string as an array
+  const vowels = ["a", "e", "i", "o", "u", "A", "E", "I", "O", "U"];
+  for (let index = 0; index <= stringToArray.length - 1; index += 1) {
+    outputArray.push(stringToArray[index]);
+    for (let j = 0; j <= vowels.length - 1; j++) {
+      if (vowels[j] === stringToArray[index]) {
+        outputArray.pop();
+        outputArray.push("-");
+        break;
+      };
+    };
+  };
+  return outputArray.join("");
+}
 
-      
-    if (letter === "a" || "e" || "i" || "o" || "u") {
-      $("letter").replaceValue("-");
-    }
-      // else if (letter === "e");
-      // else if (letter === "i");
-      // else if (letter === "o");
-      // else if (letter === "u");
+
+
+// User Interface Logic
+$(document).ready(function() {
+  $("#clickButton").click(function() {
+    alert("CLICK!");
   });
-  $("button#inputButton").click(function()  {
+  $("#formQuote").submit(function(event) {
+    let inputString = $("#input").val();  
+    let inputsArray = checkForVowels(inputString);
+    $("#input").val("");
+    $("#output").text(inputsArray);
+    event.preventDefault();
     $("div.form-group").hide();
     $("div.results").show();
   });
   $("button#return").click(function() {
     $("div.form-group").show();
     $("div.results").hide();
-  })
+  });
 })
-  
